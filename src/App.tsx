@@ -15,7 +15,7 @@ const App: React.FC = () => {
         </div>
 
         <div className="skills">
-          <h3>スキル</h3>
+          <h3>スキル!</h3>
           <ul>
             {profileData.skills.map((skill, index) => (
               <li key={index}>{skill}</li>
